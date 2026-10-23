@@ -1,1 +1,2 @@
 - [AURIGA product boundary](auriga-product-boundary.md) — keep one offline-first accessibility co-pilot; avoid identity tracking, retired variants, and inertial spatial ground truth.
+- [GitHub publishing constraints](github-push-permissions.md) — keep large uploaded archives out of an empty remote's initial history; workflow files need workflow-write permission.

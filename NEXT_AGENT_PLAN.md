@@ -59,6 +59,14 @@
 - Do not import its duplicate native app, four product flavors, browser products, or signing material. Keep the single AURIGA consumer scope.
 - The default Kotlin app does not start an accelerometer listener. The user-approved coarse orientation rejection gate is only started if the experimental geometry flag is enabled; it never supplies camera pitch or range.
 
+## 2.3. GitHub push status — October 21, 2026
+
+- The user selected the existing GitHub remote and the `replit-agent` branch. The repository had no branches or commits.
+- A clean root snapshot was pushed to `replit-agent`, excluding the uploaded source archives from Git history. The remote branch contains the 210-file workspace snapshot.
+- `.github/workflows/build-apk.yml` is not on the remote branch. Git push was rejected for missing GitHub `workflow` permission; the connected API could read the branch but its write attempts were rejected. The reauthorization card was unavailable.
+- The local `replit-agent` branch was left unchanged and does not share ancestry with the clean remote snapshot. Do not make a normal push from the current local branch until it is resynchronized.
+- To finish publication, obtain workflow-write authorization, add the workflow to the existing remote branch, and then resynchronize the local branch without losing the preserved local history.
+
 ## 3. Product mission and boundary
 
 - AURIGA is an accessibility navigation co-pilot for physical and digital environments.
