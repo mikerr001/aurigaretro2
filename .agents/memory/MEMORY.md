@@ -1,0 +1,1 @@
+- [AURIGA product boundary](auriga-product-boundary.md) — keep one offline-first accessibility co-pilot; avoid identity tracking, retired variants, and inertial spatial ground truth.
